@@ -2,15 +2,4 @@
 
 A new Flutter project.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+In this project a hybrid messaging application has been created using the flutter SDK and firebase. The app allows users to register and login into their accounts. All messages between the users are end to end encrypted using AES 256 bit encryption. The messages are sent to a server that contains a rest API. The API analyses the message and returns whether they are positive or negative. The app works for both android and iOS users. The project aims to get an insight and in-depth knowledge in hybrid app development, machine learning and cyber security. It was a team project and I have worked on building and deploying the NLP model used to classify sentiment of text messages.
